@@ -1,0 +1,15 @@
+[project]
+name = "TED_Katharizer"
+version = "0.0.1"
+authors = [
+  { name="Santiago García Gil", email="santiagogg@unex.es" },
+]
+description = "An application to generate Kathara Labs out of microservice deployment schemes."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  "kathara",
+  "pandas",
+  "igraph"
+]
+g
